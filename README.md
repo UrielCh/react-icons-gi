@@ -15,31 +15,31 @@ For a transparent usage:
   "imports": {
     "preact":  "https://esm.sh/preact@10.15.1",
     "preact/": "https://esm.sh/preact@10.15.1/",
-    "react-icons/gi":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-gi@1.0.6/mod.ts",
-    "react-icons/gi/": "https://cdn.jsdelivr.net/gh/urielch/react-icons-gi@1.0.6/ico/",
+    "react-icons/gi":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-gi@1.0.7/mod.ts",
+    "react-icons/gi/": "https://cdn.jsdelivr.net/gh/urielch/react-icons-gi@1.0.7/ico/",
   }
 }
 ```
 
-## Direct import sample
+## Import an icon without import_map by and afer loading all icons from the lib gi
 
 ```ts
-import { Gi3DGlasses } from "https://deno.land/x/react_icons_gi@1.0.6/mod.ts"
+import { Gi3DGlasses } from "https://deno.land/x/react_icons_gi@1.0.7/mod.ts"
 ```
 
-## import_map import sample
+## import_map import an icon from all icons
 
 ```ts
 import { Gi3DGlasses } from "react-icons/gi"
 ```
 
-## minimal import
+## import a single icon, downloading just one icon
 
 ```ts
 import { Gi3DGlasses } from "react-icons/gi/Gi3DGlasses.ts"
 ```
 
-## minimal import using default export
+or using default export
 
 ```ts
 import Gi3DGlasses from "react-icons/gi/Gi3DGlasses.ts"
