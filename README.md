@@ -13,18 +13,27 @@ For a transparent usage:
 ```json
 {
   "imports": {
-    "preact": "https://esm.sh/preact@10.15.1",
+    "preact":  "https://esm.sh/preact@10.15.1",
     "preact/": "https://esm.sh/preact@10.15.1/",
-    "react-icons/gi": "https://deno.land/x/react_icons_gi@1.0.0//mod.ts",
+    "react-icons/gi":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-gi@1.0.1/mod.ts",
+    "react-icons/gi/": "https://cdn.jsdelivr.net/gh/urielch/react-icons-gi/ico/",
   }
 }
 ```
 
 ## Direct import sample
 
-`import { Gi3DGlasses } from "https://deno.land/x/react_icons_gi@1.0.0/mod.ts"`
+`import { Gi3DGlasses } from "https://deno.land/x/react_icons_gi@1.0.1/mod.ts"`
 
 ## import_map import sample
 
 `import { Gi3DGlasses } from "react-icons/gi"`
+
+## minimal import
+
+`import { Gi3DGlasses } from "react-icons/gi/Gi3DGlasses.ts"`
+
+## minimal import default
+
+`import Gi3DGlasses from "react-icons/gi/Gi3DGlasses.ts"`
 
