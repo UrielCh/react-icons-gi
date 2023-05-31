@@ -25,19 +25,27 @@
  * 
  * ## Direct import sample
  * 
- * `import { Gi3DGlasses } from "https://deno.land/x/react_icons_gi@1.0.1/mod.ts"`
+ * ```ts
+ * import { Gi3DGlasses } from "https://deno.land/x/react_icons_gi@1.0.1/mod.ts"
+ * ```
  * 
  * ## import_map import sample
  * 
- * `import { Gi3DGlasses } from "react-icons/gi"`
+ * ```ts
+ * import { Gi3DGlasses } from "react-icons/gi"
+ * ```
  * 
  * ## minimal import
  * 
- * `import { Gi3DGlasses } from "react-icons/gi/Gi3DGlasses.ts"`
+ * ```ts
+ * import { Gi3DGlasses } from "react-icons/gi/Gi3DGlasses.ts"
+ * ```
  * 
- * ## minimal import default
+ * ## minimal import using default export
  * 
- * `import Gi3DGlasses from "react-icons/gi/Gi3DGlasses.ts"`
+ * ```ts
+ * import Gi3DGlasses from "react-icons/gi/Gi3DGlasses.ts"
+ * ```
  * 
  * @module
  */
