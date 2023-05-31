@@ -17,8 +17,8 @@
  *   "imports": {
  *     "preact":  "https://esm.sh/preact@10.15.1",
  *     "preact/": "https://esm.sh/preact@10.15.1/",
- *     "react-icons/gi":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-gi@1.0.3/mod.ts",
- *     "react-icons/gi/": "https://cdn.jsdelivr.net/gh/urielch/react-icons-gi/ico/",
+ *     "react-icons/gi":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-gi@1.0.4/mod.ts",
+ *     "react-icons/gi/": "https://cdn.jsdelivr.net/gh/urielch/react-icons-gi@1.0.4/ico/",
  *   }
  * }
  * ```
@@ -26,7 +26,7 @@
  * ## Direct import sample
  * 
  * ```ts
- * import { Gi3DGlasses } from "https://deno.land/x/react_icons_gi@1.0.3/mod.ts"
+ * import { Gi3DGlasses } from "https://deno.land/x/react_icons_gi@1.0.4/mod.ts"
  * ```
  * 
  * ## import_map import sample
