@@ -13,10 +13,12 @@ For a transparent usage:
 ```json
 {
   "imports": {
-    "preact":  "https://esm.sh/preact@10.22.1",
-    "preact/": "https://esm.sh/preact@10.22.1/",
-    "react-icons/gi":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-gi@1.0.10/mod.ts",
-    "react-icons/gi/": "https://cdn.jsdelivr.net/gh/urielch/react-icons-gi@1.0.10/ico/",
+    "@preact-icons/common": "jsr:@preact-icons/common@^1.0.9",
+    "preact": "npm:preact@10.22.1",
+    "preact/jsx-runtime": "npm:preact@10.22.1/jsx-runtime",
+    "preact/hooks": "npm:preact@10.22.1/hooks",
+    "react-icons/gi": "jsr:@preact-icons/gi@^1.0.10/mod.ts",
+    "react-icons/gi/": "jsr:@preact-icons/gi@^1.0.10/ico/",
   }
 }
 ```
@@ -24,7 +26,7 @@ For a transparent usage:
 ## Import an icon without import_map by and afer loading all icons from the lib gi
 
 ```ts
-import { Gi3dGlasses } from "https://deno.land/x/react_icons_gi@1.0.10/mod.ts"
+import { Gi3dGlasses } from "jsr:preact-icons/gi@1.0.10/mod.ts"
 ```
 
 ## import_map import an icon from all icons
