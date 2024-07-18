@@ -4,6 +4,10 @@
   "version": "1.0.12",
   "exports": {
     ".": "./mod.ts",
+    "./Gi3dGlasses": "./ico/Gi3dGlasses.ts",
+    "./Gi3dHammer": "./ico/Gi3dHammer.ts",
+    "./Gi3dMeeple": "./ico/Gi3dMeeple.ts",
+    "./Gi3dStairs": "./ico/Gi3dStairs.ts",
     "./GiAbacus": "./ico/GiAbacus.ts",
     "./GiAbbotMeeple": "./ico/GiAbbotMeeple.ts",
     "./GiAbdominalArmor": "./ico/GiAbdominalArmor.ts",
@@ -515,6 +519,7 @@
     "./GiBottleVapors": "./ico/GiBottleVapors.ts",
     "./GiBottledBolt": "./ico/GiBottledBolt.ts",
     "./GiBottledShadow": "./ico/GiBottledShadow.ts",
+    "./GiBottomRight3dArrow": "./ico/GiBottomRight3dArrow.ts",
     "./GiBoulderDash": "./ico/GiBoulderDash.ts",
     "./GiBouncingSpring": "./ico/GiBouncingSpring.ts",
     "./GiBouncingSword": "./ico/GiBouncingSword.ts",
