@@ -42,5 +42,5 @@ import { Gi3dGlasses } from "react-icons/gi/Gi3dGlasses"
 or using default export
 
 ```ts
-import Gi3dGlasses from "react-icons/gi/Gi3dGlasses.ts"
+import Gi3dGlasses from "react-icons/gi/Gi3dGlasses"
 ```
